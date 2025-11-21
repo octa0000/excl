@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Wishlist from "./pages/Wishlist";
 import Cartlist from "./pages/Cartlist";
-import Signup from "./pages/SignUp";
+import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 
 const myRouter = createBrowserRouter([
