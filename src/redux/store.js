@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import countReducer from "./slice/countSlice"
 import productReducer from "./slice/productSlice"
-import wishReducer from "./slice/WishSlice"
+import wishReducer from "./slice/wishSlice"
 import cartReduser from "./slice/cartSlice"
 
 
