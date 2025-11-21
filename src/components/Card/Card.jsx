@@ -5,7 +5,7 @@ import star from "../../assets/svg/star.svg";
 import { FaHeart } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { useDispatch,useSelector } from 'react-redux';
-import { addWish, deleteWish } from '../../redux/slice/WishSlice';
+import { addWish, deleteWish } from '../../redux/slice/wishSlice';
 import { addCart } from '../../redux/slice/cartSlice';
 
 function Card({data}) {
