@@ -3,7 +3,7 @@ import "./Wish.scss"
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { TiShoppingCart } from "react-icons/ti";    
 import { useDispatch } from 'react-redux';
-import { deleteWish } from '../../redux/slice/WishSlice';
+import { deleteWish } from '../../redux/slice/wishSlice';
 
 function WishCard({data}) {
   const dispatch = useDispatch()
